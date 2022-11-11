@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
+
+/* Since we added the fixed-top to the navbar we need space on top for when we scroll back up */
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
